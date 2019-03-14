@@ -1,0 +1,26 @@
+.left-block {
+  position: relative;
+  width: 250px;
+  background-color: #ffffff;
+  height: 350px;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 20px;
+  text-align: left;
+  vertical-align: top;
+  top: 30%;
+  box-shadow: 0px 0px 1px 0px rgba(0,191,255,1);
+  &__currency-text {
+    font-size: 15px;
+    color: #808070;
+    font-weight: bold;
+  }
+  &__transfers-text {
+    font-size: 15px;
+    color: #808070;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    padding-bottom: 10px;
+  }
+}

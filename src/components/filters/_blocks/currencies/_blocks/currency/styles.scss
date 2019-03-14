@@ -1,0 +1,30 @@
+.currency {
+  &:hover {
+    background-color: #f0fcff;
+    color: #0000ff;
+    display: inline-block;
+    height: 100%;
+    line-height: 40px;
+    width: 83px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  &_choosen {
+    background-color: #0000ff;
+    display: inline-block;
+    height: 100%;
+    color: #ffffff;
+    line-height: 40px;
+    width: 83px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  display: inline-block;
+  height: 100%;
+  color: #0000ff;
+  line-height: 40px;
+  width: 83px;
+  text-align: center;
+  border-radius: 5px;
+}

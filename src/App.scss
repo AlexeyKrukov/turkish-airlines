@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  background-color: #f3f7fa;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  &__left-block {
+    position: relative;
+    width: 300px;
+    background-color: #ffffff;
+    height: 350px;
+    border-radius: 5px;
+    display: inline-block;
+    top: 30%;
+  }
+  &__right-block {
+    position: relative;
+    top: 30%;
+    width: 800px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: inline-block;
+    left: 10%;
+    padding: 20px;
+    height: 100%;
+  }
+}
