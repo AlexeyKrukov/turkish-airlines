@@ -7,10 +7,7 @@ const mapStateToProps = (store: any) => {
    }
 };
 
-const mapDispatchToProps = () => ({
-});
-
 export default connect(
     mapStateToProps,
-    mapDispatchToProps
+    null
 )(Template);

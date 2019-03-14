@@ -1,6 +1,5 @@
 const initialState = {
-    stops: [null],
-    selected: [null]
+    stops: [null]
 };
 
 export default (state = initialState, action: any) => {

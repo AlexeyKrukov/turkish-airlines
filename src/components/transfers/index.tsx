@@ -9,15 +9,11 @@ const mapStateToProps = (store: any) => {
     });
     return {
         tickets: newTickets,
-        stops: store.transfers.stops,
-        begin: store.transfers.begin
+        stops: store.transfers.stops
     };
 };
 
-const mapDispatchToProps = () => ({
-});
-
 export default connect(
     mapStateToProps,
-    mapDispatchToProps
+    null
 )(Template);

@@ -4,14 +4,13 @@ import Template from './template';
 
 const mapStateToProps = (store: any) => {
     return {
-        stops: store.transfers.stops,
-        selected: store.transfers.selected
+        stops: store.transfers.stops
     }
 };
 
 const mapDispatchToProps = (dispatch: any) => ({
-    changeSorting(type: string, sorting: any) {
-        return dispatch(changeSorting(type, sorting));
+    changeSorting(sorting: any) {
+        return dispatch(changeSorting(sorting));
     }
 });
 
