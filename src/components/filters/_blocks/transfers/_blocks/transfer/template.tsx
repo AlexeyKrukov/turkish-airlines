@@ -31,7 +31,7 @@ export default class Transer extends React.Component<IProps> {
         const { type } = this.props;
         return (
             <div className="transfer">
-                <div className="transfer__checkbox" onClick={this.selectSortingNotOnly}>
+                <div className="transfer__checkbox" onClick={this.selectSortingNotOnly} ref="checkbox">
                     {this.state.selected && <img src="ok.png" alt="ok" width={15} height={15} /> }
                 </div>
                 <span> {type} </span>
@@ -120,9 +120,6 @@ export default class Transer extends React.Component<IProps> {
                 return;
             }
         }
-        this.setState({
-           selected: !this.state.selected
-        });
         if (this.props.type.split(' ')[0] === 'Без') {
             const index = this.props.stops.findIndex((elem: number) => elem === null);
             if (index === 0 && this.props.stops.length === 1) {

@@ -14,7 +14,10 @@
     cursor: pointer;
     border-radius: 5px;
     display: inline-block;
-    border: 1px solid;
+    border: 1px solid #bbbbbb;
+    &_clicked {
+      border: 1px solid deepskyblue;
+    }
   }
   span {
     vertical-align: top;
